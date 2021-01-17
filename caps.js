@@ -1,6 +1,4 @@
 'use strict';
-
-
 const eventsEmitter =require('./event');
 require('./vendor');
 require('./driver');

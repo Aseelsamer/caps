@@ -11,5 +11,5 @@ eventsEmitter.emit('in-transit',payload);
     setTimeout(()=>{
         console.log(`DRIVER: delivered to  ${payload.orderID}`)
         eventsEmitter.emit('delivered',payload);
-            },1000);
+            },3000);
 })
